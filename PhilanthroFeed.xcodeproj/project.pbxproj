@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BE3D4EA186FE5E7005C2185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4E9186FE5E7005C2185 /* UIKit.framework */; };
+		5BE3D4EC186FE5E7005C2185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4EB186FE5E7005C2185 /* Foundation.framework */; };
+		5BE3D4EE186FE5E7005C2185 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4ED186FE5E7005C2185 /* CoreGraphics.framework */; };
+		5BE3D4F4186FE5E7005C2185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D4F2186FE5E7005C2185 /* InfoPlist.strings */; };
+		5BE3D4F6186FE5E7005C2185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D4F5186FE5E7005C2185 /* main.m */; };
+		5BE3D4FA186FE5E7005C2185 /* PFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D4F9186FE5E7005C2185 /* PFAppDelegate.m */; };
+		5BE3D4FC186FE5E7005C2185 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D4FB186FE5E7005C2185 /* Default.png */; };
+		5BE3D4FE186FE5E7005C2185 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D4FD186FE5E7005C2185 /* Default@2x.png */; };
+		5BE3D500186FE5E7005C2185 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D4FF186FE5E7005C2185 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BE3D4E6186FE5E7005C2185 /* PhilanthroFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhilanthroFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE3D4E9186FE5E7005C2185 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BE3D4EB186FE5E7005C2185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BE3D4ED186FE5E7005C2185 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BE3D4F1186FE5E7005C2185 /* PhilanthroFeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhilanthroFeed-Info.plist"; sourceTree = "<group>"; };
+		5BE3D4F3186FE5E7005C2185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BE3D4F5186FE5E7005C2185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BE3D4F7186FE5E7005C2185 /* PhilanthroFeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhilanthroFeed-Prefix.pch"; sourceTree = "<group>"; };
+		5BE3D4F8186FE5E7005C2185 /* PFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAppDelegate.h; sourceTree = "<group>"; };
+		5BE3D4F9186FE5E7005C2185 /* PFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFAppDelegate.m; sourceTree = "<group>"; };
+		5BE3D4FB186FE5E7005C2185 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BE3D4FD186FE5E7005C2185 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5BE3D4FF186FE5E7005C2185 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE3D4E3186FE5E7005C2185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE3D4EA186FE5E7005C2185 /* UIKit.framework in Frameworks */,
+				5BE3D4EC186FE5E7005C2185 /* Foundation.framework in Frameworks */,
+				5BE3D4EE186FE5E7005C2185 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE3D4DD186FE5E7005C2185 = {
+			isa = PBXGroup;
+			children = (
+				5BE3D4EF186FE5E7005C2185 /* PhilanthroFeed */,
+				5BE3D4E8186FE5E7005C2185 /* Frameworks */,
+				5BE3D4E7186FE5E7005C2185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE3D4E7186FE5E7005C2185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3D4E6186FE5E7005C2185 /* PhilanthroFeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE3D4E8186FE5E7005C2185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3D4E9186FE5E7005C2185 /* UIKit.framework */,
+				5BE3D4EB186FE5E7005C2185 /* Foundation.framework */,
+				5BE3D4ED186FE5E7005C2185 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BE3D4EF186FE5E7005C2185 /* PhilanthroFeed */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3D4F8186FE5E7005C2185 /* PFAppDelegate.h */,
+				5BE3D4F9186FE5E7005C2185 /* PFAppDelegate.m */,
+				5BE3D4F0186FE5E7005C2185 /* Supporting Files */,
+			);
+			path = PhilanthroFeed;
+			sourceTree = "<group>";
+		};
+		5BE3D4F0186FE5E7005C2185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3D4F1186FE5E7005C2185 /* PhilanthroFeed-Info.plist */,
+				5BE3D4F2186FE5E7005C2185 /* InfoPlist.strings */,
+				5BE3D4F5186FE5E7005C2185 /* main.m */,
+				5BE3D4F7186FE5E7005C2185 /* PhilanthroFeed-Prefix.pch */,
+				5BE3D4FB186FE5E7005C2185 /* Default.png */,
+				5BE3D4FD186FE5E7005C2185 /* Default@2x.png */,
+				5BE3D4FF186FE5E7005C2185 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE3D4E5186FE5E7005C2185 /* PhilanthroFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE3D503186FE5E7005C2185 /* Build configuration list for PBXNativeTarget "PhilanthroFeed" */;
+			buildPhases = (
+				5BE3D4E2186FE5E7005C2185 /* Sources */,
+				5BE3D4E3186FE5E7005C2185 /* Frameworks */,
+				5BE3D4E4186FE5E7005C2185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhilanthroFeed;
+			productName = PhilanthroFeed;
+			productReference = 5BE3D4E6186FE5E7005C2185 /* PhilanthroFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE3D4DE186FE5E7005C2185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Welles Robinson";
+			};
+			buildConfigurationList = 5BE3D4E1186FE5E7005C2185 /* Build configuration list for PBXProject "PhilanthroFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BE3D4DD186FE5E7005C2185;
+			productRefGroup = 5BE3D4E7186FE5E7005C2185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE3D4E5186FE5E7005C2185 /* PhilanthroFeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE3D4E4186FE5E7005C2185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE3D4F4186FE5E7005C2185 /* InfoPlist.strings in Resources */,
+				5BE3D4FC186FE5E7005C2185 /* Default.png in Resources */,
+				5BE3D4FE186FE5E7005C2185 /* Default@2x.png in Resources */,
+				5BE3D500186FE5E7005C2185 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE3D4E2186FE5E7005C2185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE3D4F6186FE5E7005C2185 /* main.m in Sources */,
+				5BE3D4FA186FE5E7005C2185 /* PFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BE3D4F2186FE5E7005C2185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE3D4F3186FE5E7005C2185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BE3D501186FE5E7005C2185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BE3D502186FE5E7005C2185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE3D504186FE5E7005C2185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhilanthroFeed/PhilanthroFeed-Prefix.pch";
+				INFOPLIST_FILE = "PhilanthroFeed/PhilanthroFeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BE3D505186FE5E7005C2185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhilanthroFeed/PhilanthroFeed-Prefix.pch";
+				INFOPLIST_FILE = "PhilanthroFeed/PhilanthroFeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE3D4E1186FE5E7005C2185 /* Build configuration list for PBXProject "PhilanthroFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE3D501186FE5E7005C2185 /* Debug */,
+				5BE3D502186FE5E7005C2185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE3D503186FE5E7005C2185 /* Build configuration list for PBXNativeTarget "PhilanthroFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE3D504186FE5E7005C2185 /* Debug */,
+				5BE3D505186FE5E7005C2185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BE3D4DE186FE5E7005C2185 /* Project object */;
+}
