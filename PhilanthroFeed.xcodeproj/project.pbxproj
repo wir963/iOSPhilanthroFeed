@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B809881187632C90003B967 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80987F187632C90003B967 /* DetailViewController.m */; };
+		5B809882187632C90003B967 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B809880187632C90003B967 /* DetailViewController.xib */; };
 		5BE3D4EA186FE5E7005C2185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4E9186FE5E7005C2185 /* UIKit.framework */; };
 		5BE3D4EC186FE5E7005C2185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4EB186FE5E7005C2185 /* Foundation.framework */; };
 		5BE3D4EE186FE5E7005C2185 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4ED186FE5E7005C2185 /* CoreGraphics.framework */; };
@@ -16,9 +18,15 @@
 		5BE3D4FC186FE5E7005C2185 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D4FB186FE5E7005C2185 /* Default.png */; };
 		5BE3D4FE186FE5E7005C2185 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D4FD186FE5E7005C2185 /* Default@2x.png */; };
 		5BE3D500186FE5E7005C2185 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D4FF186FE5E7005C2185 /* Default-568h@2x.png */; };
+		5BE3D508186FE608005C2185 /* NeedyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D507186FE608005C2185 /* NeedyPerson.m */; };
+		5BE3D50B186FE633005C2185 /* NeedyPersonStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D50A186FE633005C2185 /* NeedyPersonStore.m */; };
+		5BE3D50E186FE66F005C2185 /* PFItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D50D186FE66F005C2185 /* PFItemsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B80987E187632C90003B967 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5B80987F187632C90003B967 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5B809880187632C90003B967 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		5BE3D4E6186FE5E7005C2185 /* PhilanthroFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhilanthroFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE3D4E9186FE5E7005C2185 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BE3D4EB186FE5E7005C2185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +40,12 @@
 		5BE3D4FB186FE5E7005C2185 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5BE3D4FD186FE5E7005C2185 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5BE3D4FF186FE5E7005C2185 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BE3D506186FE608005C2185 /* NeedyPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedyPerson.h; sourceTree = "<group>"; };
+		5BE3D507186FE608005C2185 /* NeedyPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedyPerson.m; sourceTree = "<group>"; };
+		5BE3D509186FE633005C2185 /* NeedyPersonStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedyPersonStore.h; sourceTree = "<group>"; };
+		5BE3D50A186FE633005C2185 /* NeedyPersonStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedyPersonStore.m; sourceTree = "<group>"; };
+		5BE3D50C186FE66F005C2185 /* PFItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFItemsViewController.h; sourceTree = "<group>"; };
+		5BE3D50D186FE66F005C2185 /* PFItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFItemsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,15 @@
 			children = (
 				5BE3D4F8186FE5E7005C2185 /* PFAppDelegate.h */,
 				5BE3D4F9186FE5E7005C2185 /* PFAppDelegate.m */,
+				5B80987E187632C90003B967 /* DetailViewController.h */,
+				5B80987F187632C90003B967 /* DetailViewController.m */,
+				5B809880187632C90003B967 /* DetailViewController.xib */,
+				5BE3D506186FE608005C2185 /* NeedyPerson.h */,
+				5BE3D507186FE608005C2185 /* NeedyPerson.m */,
+				5BE3D509186FE633005C2185 /* NeedyPersonStore.h */,
+				5BE3D50A186FE633005C2185 /* NeedyPersonStore.m */,
+				5BE3D50C186FE66F005C2185 /* PFItemsViewController.h */,
+				5BE3D50D186FE66F005C2185 /* PFItemsViewController.m */,
 				5BE3D4F0186FE5E7005C2185 /* Supporting Files */,
 			);
 			path = PhilanthroFeed;
@@ -155,6 +178,7 @@
 				5BE3D4FC186FE5E7005C2185 /* Default.png in Resources */,
 				5BE3D4FE186FE5E7005C2185 /* Default@2x.png in Resources */,
 				5BE3D500186FE5E7005C2185 /* Default-568h@2x.png in Resources */,
+				5B809882187632C90003B967 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +191,10 @@
 			files = (
 				5BE3D4F6186FE5E7005C2185 /* main.m in Sources */,
 				5BE3D4FA186FE5E7005C2185 /* PFAppDelegate.m in Sources */,
+				5BE3D508186FE608005C2185 /* NeedyPerson.m in Sources */,
+				5BE3D50B186FE633005C2185 /* NeedyPersonStore.m in Sources */,
+				5BE3D50E186FE66F005C2185 /* PFItemsViewController.m in Sources */,
+				5B809881187632C90003B967 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +309,7 @@
 				5BE3D505186FE5E7005C2185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

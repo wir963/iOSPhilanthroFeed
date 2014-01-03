@@ -7,6 +7,7 @@
 //
 
 #import "PFAppDelegate.h"
+#import "PFItemsViewController.h"
 
 @implementation PFAppDelegate
 
@@ -14,6 +15,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    PFItemsViewController *ivc = [[PFItemsViewController alloc] init];
+    
+    // Create an instance of a UINavigationController
+    // its stack contains only itemsViewController
+    UINavigationController *navController = [[UINavigationController alloc]
+                                             initWithRootViewController:ivc];
+    
+    [[self window] setRootViewController:navController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
