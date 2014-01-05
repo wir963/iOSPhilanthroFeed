@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B809881187632C90003B967 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B80987F187632C90003B967 /* DetailViewController.m */; };
 		5B809882187632C90003B967 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B809880187632C90003B967 /* DetailViewController.xib */; };
+		5B8098881879B7970003B967 /* PFImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8098871879B7960003B967 /* PFImageStore.m */; };
 		5BE3D4EA186FE5E7005C2185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4E9186FE5E7005C2185 /* UIKit.framework */; };
 		5BE3D4EC186FE5E7005C2185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4EB186FE5E7005C2185 /* Foundation.framework */; };
 		5BE3D4EE186FE5E7005C2185 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE3D4ED186FE5E7005C2185 /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 		5B80987E187632C90003B967 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5B80987F187632C90003B967 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5B809880187632C90003B967 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		5B8098861879B7960003B967 /* PFImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFImageStore.h; sourceTree = "<group>"; };
+		5B8098871879B7960003B967 /* PFImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFImageStore.m; sourceTree = "<group>"; };
 		5BE3D4E6186FE5E7005C2185 /* PhilanthroFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhilanthroFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE3D4E9186FE5E7005C2185 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BE3D4EB186FE5E7005C2185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +102,8 @@
 				5B809880187632C90003B967 /* DetailViewController.xib */,
 				5BE3D506186FE608005C2185 /* NeedyPerson.h */,
 				5BE3D507186FE608005C2185 /* NeedyPerson.m */,
+				5B8098861879B7960003B967 /* PFImageStore.h */,
+				5B8098871879B7960003B967 /* PFImageStore.m */,
 				5BE3D509186FE633005C2185 /* NeedyPersonStore.h */,
 				5BE3D50A186FE633005C2185 /* NeedyPersonStore.m */,
 				5BE3D50C186FE66F005C2185 /* PFItemsViewController.h */,
@@ -195,6 +200,7 @@
 				5BE3D50B186FE633005C2185 /* NeedyPersonStore.m in Sources */,
 				5BE3D50E186FE66F005C2185 /* PFItemsViewController.m in Sources */,
 				5B809881187632C90003B967 /* DetailViewController.m in Sources */,
+				5B8098881879B7970003B967 /* PFImageStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

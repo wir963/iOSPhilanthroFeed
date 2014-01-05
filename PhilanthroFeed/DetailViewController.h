@@ -12,7 +12,9 @@
 @interface DetailViewController : UIViewController
 {
     __weak IBOutlet UILabel *bioLabel;
-    __weak IBOutlet UILabel *nameLabel;
+    __weak IBOutlet UILabel *firstNameLabel;
+    __weak IBOutlet UILabel *lastNameLabel;
+    __weak IBOutlet UIImageView *imageView;
 }
 @property NeedyPerson *person;
 

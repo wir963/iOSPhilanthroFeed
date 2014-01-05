@@ -13,7 +13,9 @@
 @property (nonatomic, strong) NSString *firstName;
 @property (nonatomic, strong) NSString *lastName;
 @property (nonatomic, strong) NSString *biography;
+@property (nonatomic, copy) NSString *imageKey;
 
-- (NSString *) getName;
+- (NSString *) fullName;
+- (UIImage *) image;
 
 @end

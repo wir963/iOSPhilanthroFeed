@@ -20,7 +20,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [nameLabel setText:[person getName]];
+    [firstNameLabel setText:[person firstName]];
+    [lastNameLabel setText:[person lastName]];
     [bioLabel setText:[person biography]];
 }
 
